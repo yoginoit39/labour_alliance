@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    padding:120px 0 60px 0;
+}
+
+.gallery{
+    width: 84%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.small{
+    width: 20%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 1s;
+    display: inline-block;
+}
+
+.small:hover{
+    filter: grayscale(0);
+    transform: scale(1,1);
+}
+

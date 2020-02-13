@@ -1,0 +1,209 @@
+h1{
+    display: block;
+    padding-top: 90px;
+    width: 95%;
+    margin: auto;
+}
+
+#abs{
+    display: block;
+    padding-top: 90px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+#who-we-are{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+#left-article{
+    width: 65%;
+    float: left;
+    margin: 0 2.5%;
+}
+
+#left-article p{
+    line-height: 1.5;
+}
+
+#we-logo{
+    width: 25%;
+    float: right;
+    margin-right: 2.5%;
+    
+}
+
+#we-logo img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 100px;
+}
+
+#competence{
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+
+#competence h1{
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+
+#competence p{
+    line-height: 1.5;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#visions{
+    width: 95%;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#vision{
+    width: 23.7%;
+    float: left;
+}
+
+#visions h1{
+    display: block;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+
+#visions p{
+    line-height: 1.5;
+    width: 95%;
+}
+
+
+@media screen and (max-width:500px){
+ 
+    #left-article{
+    width: 90%;
+    float: none;
+    margin: 0;
+    margin: auto;
+}
+    
+    #competence h1{
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+#competence p{
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+    
+    #visions{
+    width: 90%;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#vision{
+    width: 100%;
+    float: none;
+}
+
+#visions h1{
+    display: block;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+#visions p{
+    line-height: 1.5;
+    width: 95%;
+}
+
+}
+
+
+@media screen and (max-width: 800px){
+     #left-article{
+    width: 90%;
+    float: none;
+    margin: 0;
+    margin: auto;
+}
+    
+    #competence h1{
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+    #we-logo{
+    width: 40%;
+    float: none;
+    margin-right: 0%;
+    float: none;
+    margin: auto;
+    display: none;
+}
+    
+    #who-we-are{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+    height: auto;
+}
+
+#competence p{
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+    
+    #visions{
+    width: 90%;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#vision{
+    width: 100%;
+    float: none;
+}
+
+#visions h1{
+    display: block;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+#visions p{
+    line-height: 1.5;
+    width: 95%;
+}
+}

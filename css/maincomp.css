@@ -1,0 +1,794 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#themaincomp{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background: #e5f4f4;
+    overflow: hidden;
+}
+
+#themaincomp h1{
+    color:black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: fantasy;
+    font-size: 45px;
+}
+
+#open, #close{
+    display: none;
+}
+
+.m-icon{
+    display: none;
+}
+
+
+#monitoring{
+    width: 100%;
+    background: white;
+    height: auto;
+     overflow: hidden;
+}
+
+#mon-left{
+    width: 50%;
+    background-image: url(../Images/ubroad.jpg);
+    background-attachment: fixed;
+    height: 300px;
+    background-size: contain;
+    float: left;
+    position: relative;
+    background-position: bottom;
+    
+}
+
+#ugandans{
+    background: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+
+#mon-left h1{
+    font-family: serif;
+    
+    text-align: center;
+}
+
+#mon-right{
+    width: 50%;
+    float: left;
+    background: white;
+}
+
+#mon-right h2{
+    font-family: serif;
+    color: darkblue;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 35px;
+}
+
+#mon-right p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+
+#labour-relation{
+    width:100%;
+    height: 400px;
+    background: white;
+     overflow: hidden;
+}
+
+#labour-left{
+    width: 50%;
+    float: left;
+    clear: left;
+    background: white;
+}
+
+#labour-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 35px;
+}
+
+#labour-left p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+     
+}
+
+#labour-right{
+    width: 50%;
+    float: left;
+    background-image: url('../Images/meeting.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: right center;
+}
+
+#labour-right h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+#gender-comp{
+    width: 100%;
+    position: relative;
+     overflow: hidden;
+    background: white;
+    height: auto;
+}
+
+#left-gender{
+    width: 50%;
+    float: left;
+    background-image: url('../Images/girls.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#left-gender h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 35px;
+}
+
+#right-gender h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 35px;
+}
+
+#right-gender p{
+    width: 70%;
+    margin: auto;
+}
+
+#right-gender{
+    text-align: center;
+    width: 50%;
+    float: left;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+     background: white;
+}
+
+
+#environment{
+    width:100%;
+    height: 400px;
+    position: relative;
+     overflow: hidden;
+    background: white;
+}
+
+#left-enviro{
+    width: 50%;
+    float: left;
+    background-image: url('../Images/forest.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    position: relative;
+    
+   
+}
+
+#left-enviro h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 35px;    
+}
+
+#last-left{
+    width: 50%;
+    float: left;
+    background: white;
+}
+
+#last-left p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+
+#last-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 35px;
+}
+
+
+.logo{
+    width: 100%;
+    height: 70px;
+}
+
+.lab{
+    color: white;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+i{
+    border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+    margin-bottom: 2px;
+   margin-left: 3px;
+ 
+}
+
+.push{
+    margin-left: 5px;
+}
+
+.down{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+     
+}
+
+/* new footer------------------------------------------------- new footer -------------------------------*/
+footer{
+    width: 100%;
+    background-color: #121372;
+    color: white;
+    height: auto;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont{
+    padding: 20px 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+#footer-col1{
+    width: 40%;
+    height: auto;
+    padding: 5px 20px;
+    float: left;
+}
+
+#form-col1{
+    width: 45%;
+    float: left;
+    margin-right: 8.3%;
+}
+
+#form-col1 p{
+    padding: 5px;
+}
+
+#form-col2 p{
+    padding: 5px;
+}
+
+#form-col1 input[type="text"]{
+    width: 90%;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline-color: red;
+}
+
+#form-col2 input[type="email"]{
+    width: 45%;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline-color: red;
+}
+
+#form-col2 input[type="text"]{
+    width: 45%;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline-color: red;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 3px;
+    height: 150px;
+}
+
+footer input[type="submit"]{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    color: blue;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+     transition: all ease-in-out .5s;
+}
+
+footer input[type="submit"]:hover{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    color: white;
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+}
+
+#footer-col2{
+    width: 30%;
+    position: relative;
+    float: left;
+    height: 400px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+#footer-col2 p{
+    padding: 10px;
+    font-weight: bold;
+   
+}
+
+#footer-col2 ul li{
+    list-style: none;
+}
+
+#footer-col2 .compi{
+   padding: 20px 0;
+    font-weight: bold;
+    display: block;
+}
+
+.foot-log{
+    width: 20%;
+    height: 20%;
+}
+
+.lastfooter{
+    padding: 5px 20px;
+    text-align: center;
+}
+
+/*--------------------------end of new footer---------------------------------------------------*/
+
+
+@media screen and (max-width: 500px){
+    
+    #mon-left{
+    width: 100%;
+    background-image: url(../Images/ubroad.jpg);
+    background-attachment: scroll;
+    height: 220px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    float: none;
+    position: relative;
+    
+}
+    
+    #monitoring{
+        height: auto;
+}
+
+    
+    #themaincomp h1{
+    color:black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+    
+     #mon-right{
+    width: 100%;
+    background-image: url(../Images/mon-right1.jpg);
+    background-attachment: fixed;
+    height: auto;
+    background-size: contain;
+    float: left;
+    position: relative;
+    
+}
+    
+    #mon-right h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#mon-right p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+    
+    
+    
+#labour-relation{
+    width:100%;
+    height: auto;
+}
+
+#labour-left{
+    width: 100%;
+    float: none;
+    clear: none;
+}
+
+#labour-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#labour-left p{
+    width: 90%;
+    margin: auto;
+     
+}
+
+#labour-right{
+    width: 100%;
+    float: none;
+    background-image: url('../Images/meeting.jpg');
+    background-size: contain;
+    background-attachment: scroll;
+    height: 380px;
+    position: relative;
+    background-position: bottom;
+}
+
+#labour-right h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+    #gender-comp{
+    width: 100%;
+    background: white;
+    height: auto;
+}
+
+#left-gender{
+    width: 100%;
+    float: none;
+    background-image: url('../Images/girls.jpg');
+    background-size: contain;
+    background-attachment: scroll;
+    height: 260px;
+    position: relative;
+    background-position: bottom;
+}
+
+#left-gender h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+#right-gender h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+#right-gender p{
+    width: 90%;
+    margin: auto;
+}
+
+#right-gender{
+    text-align: center;
+    width: 100%;
+    float: none;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+     background: white;
+}
+    
+    #environment{
+    width:100%;
+    height: auto;
+    position: relative;
+     overflow: hidden;
+    background: white;
+}
+
+#left-enviro{
+    width: 100%;
+    float: none;
+    background-image: url('../Images/forest.jpg');
+    height: 400px;
+    background-attachment: scroll;
+   
+}
+
+#left-enviro h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 30px;    
+}
+
+#last-left{
+    width: 100%;
+    float: none;
+    background: white;
+}
+
+#last-left p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+
+#last-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 20px ;
+    font-size: 30px;
+}
+
+
+    
+}
+
+
+
+@media screen and (max-width: 800px){
+    
+    #mon-left{
+    width: 100%;
+    background-image: url(../Images/ubroad.jpg);
+    background-attachment: scroll;
+    height: 220px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    float: none;
+    position: relative;
+    
+}
+    
+    #monitoring{
+        height: auto;
+}
+
+    
+    #themaincomp h1{
+    color:black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+    
+     #mon-right{
+    width: 100%;
+    background-image: url(../Images/mon-right1.jpg);
+    background-attachment: fixed;
+    height: auto;
+    background-size: contain;
+    float: left;
+    position: relative;
+    
+}
+    
+    #mon-right h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#mon-right p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+    
+    
+    
+#labour-relation{
+    width:100%;
+    height: auto;
+}
+
+#labour-left{
+    width: 100%;
+    float: none;
+    clear: none;
+}
+
+#labour-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#labour-left p{
+    width: 90%;
+    margin: auto;
+     
+}
+
+#labour-right{
+    width: 100%;
+    float: none;
+    background-image: url('../Images/meeting.jpg');
+    background-size: contain;
+    background-attachment: scroll;
+    height: 380px;
+    position: relative;
+    background-position: bottom;
+}
+
+#labour-right h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+    #gender-comp{
+    width: 100%;
+    background: white;
+    height: auto;
+}
+
+#left-gender{
+    width: 100%;
+    float: none;
+    background-image: url('../Images/girls.jpg');
+    background-size: contain;
+    background-attachment: scroll;
+    height: 260px;
+    position: relative;
+    background-position: bottom;
+}
+
+#left-gender h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+#right-gender h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+#right-gender p{
+    width: 90%;
+    margin: auto;
+}
+
+#right-gender{
+    text-align: center;
+    width: 100%;
+    float: none;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+     background: white;
+}
+    
+    #environment{
+    width:100%;
+    height: auto;
+    position: relative;
+     overflow: hidden;
+    background: white;
+}
+
+#left-enviro{
+    width: 100%;
+    float: none;
+    background-image: url('../Images/forest.jpg');
+    height: 400px;
+    background-attachment: scroll;
+   
+}
+
+#left-enviro h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 30px;    
+}
+
+#last-left{
+    width: 100%;
+    float: none;
+    background: white;
+}
+
+#last-left p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+
+#last-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 20px ;
+    font-size: 30px;
+}
+
+
+    
+}

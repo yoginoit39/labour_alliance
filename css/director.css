@@ -1,0 +1,317 @@
+#img-text{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#top{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+#img-text h1{
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+}
+
+#left-text{
+    width: 100%;
+    position: relative;
+    background-color: white;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#left-text p{
+    padding: 40px;
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+#right-text{
+    width: 100%;
+    position: relative;
+    background-color: white;
+    height: auto;
+}
+
+#right-text p{
+   padding: 40px;
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#last-para{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    padding: 40px 0;
+    overflow: hidden;
+     background: white;
+}
+
+#last-para p{
+    width: 80%;
+    text-align: justify;
+    line-height: 1.5;
+    margin: auto;
+    padding: 20px;
+    box-shadow: border-box;
+}
+
+#back{
+    background: url(../Images/director.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    border-radius: 40%;
+    width: 30%;
+    height: 450px;
+    margin: auto;
+    
+}
+
+.dr{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 100;
+    margin: 20px;
+}
+
+/* new footer------------------------------------------------- new footer -------------------------------*/
+footer{
+    width: 100%;
+    background-color: #121372;
+    color: white;
+    height: auto;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont{
+    padding: 20px 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+#footer-col1{
+    width: 40%;
+    height: auto;
+    padding: 5px 20px;
+    float: left;
+}
+
+#form-col1{
+    width: 45%;
+    float: left;
+    margin-right: 8.3%;
+}
+
+#form-col1 p{
+    padding: 5px;
+}
+
+#form-col2 p{
+    padding: 5px;
+}
+
+#form-col1 input[type="text"]{
+    width: 90%;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline-color: red;
+}
+
+#form-col2 input[type="email"]{
+    width: 45%;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline-color: red;
+}
+
+#form-col2 input[type="text"]{
+    width: 45%;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline-color: red;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 3px;
+    height: 150px;
+}
+
+footer input[type="submit"]{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    color: blue;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+     transition: all ease-in-out .5s;
+}
+
+footer input[type="submit"]:hover{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    color: white;
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+}
+
+#footer-col2{
+    width: 30%;
+    position: relative;
+    float: left;
+    height: 400px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+#footer-col2 p{
+    padding: 10px;
+    font-weight: bold;
+   
+}
+
+#footer-col2 ul li{
+    list-style: none;
+}
+
+#footer-col2 .compi{
+   padding: 20px 0;
+    font-weight: bold;
+    display: block;
+}
+
+.foot-log{
+    width: 20%;
+    height: 20%;
+}
+
+.lastfooter{
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+    height: 70px;
+}
+
+.lab{
+    color: white;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+i{
+    border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+    margin-bottom: 2px;
+   margin-left: 3px;
+ 
+}
+
+.push{
+    margin-left: 5px;
+}
+
+.down{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+     
+}
+
+/*--------------------------end of new footer---------------------------------------------------*/
+
+
+@media screen and (max-width: 800px){
+    
+     #left-text p{
+    padding: 20px 0;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+    
+     #right-text p{
+   padding: 0;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+    
+     #last-para p{
+    width: 90%;
+    text-align: left;
+    line-height: 1.5;
+    margin: auto;
+    padding: 0;
+}
+
+    #back{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    
+    #left-text p{
+    padding: 20px 0;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+    
+    #right-text p{
+   padding: 0;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+    
+    #last-para p{
+    width: 90%;
+    text-align: left;
+    line-height: 1.5;
+    margin: auto;
+    padding: 0;
+}
+    
+    #back{
+        width: 80%;
+    }
+
+}
